@@ -1,0 +1,34 @@
+body{
+    color: #3f3f3f;
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+
+.grid{
+    width: 100%;
+}
+
+
+@media (min-width: 576px) {
+.grid-item{
+float: left;
+width: calc(33.33% - 20px);
+margin: 10px;
+}
+}
+
+@media (max-width: 575px) {
+    .grid-item{
+    float: left;
+    width: calc(100% - 20px);
+    margin: 10px;
+    }
+}
+
+
+
+
